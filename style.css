@@ -1,0 +1,55 @@
+@font-face {
+  src: url(Fonts/TiemposHeadline-Medium.otf);
+  font-family: Tiempos;
+}
+
+
+*{
+  margin: 0;
+  padding:0;
+  font-family: Tiempos;
+}
+body{
+  background: url(Images/valentin-bonjour-TIdqm0Cl8UA-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.container{
+  margin: 60px;
+
+}
+
+.container .logo{
+
+}
+
+.container .logo h2{
+  color: white;
+  font-size: 3em;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.container .nav .item {
+  position: absolute;
+  right: 30px;
+  top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.container .nav .item li{
+  list-style: none;
+  padding: 10px;
+
+}
+
+.container .nav .item li a{
+  text-decoration: none;
+  padding: 10px 20px;
+  background: none;
+  color: white;
+  border: 1px solid white;
+}
